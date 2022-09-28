@@ -1,0 +1,23 @@
+.header-container {
+  height: 100%;
+  background-color: burlywood;
+  width: 100%;
+  padding: 40px 40px 0px 40px;
+
+  &-list {
+    display: flex;
+    list-style: none;
+    gap: 100px;
+    justify-content: space-between;
+
+    &-item {
+      &-date {
+        font-size: 24px;
+        height: 30px;
+        width: 60px;
+        background-color: aquamarine;
+        margin-left: 100px;
+      }
+    }
+  }
+}
